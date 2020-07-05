@@ -1,0 +1,267 @@
+/* Style the header with a grey background and some padding */
+.header {
+  border-radius: 25px;
+  overflow: hidden; 
+  padding: 20px 10px;
+}
+
+/* Style the header links */
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+  color: #656773;
+}
+
+/* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+  color: #FFC25C;
+}
+
+/* Change the background color on mouse-over */
+.header a:hover {
+  border-radius: 25px;
+  color: black;
+}
+
+/* Style the active/current link*/
+.header a.active {
+  border-radius: 25px;
+  color: #EBEBEC;
+}
+
+/* Float the link section to the right */
+.header-right {
+  float: right;
+  color: #656773;
+}
+
+/* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .header-right {
+    float: none;
+  }
+}
+
+
+
+
+
+
+h1{
+  width: 242px;
+  height: 160px;
+  left: 150px;
+  top: 240px;
+
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 72px;
+  line-height: 80px;
+  /* or 111% */
+
+
+color: #EBEBEC;
+}
+
+body{
+  background: #333646;
+}
+
+.android{
+  float: right;
+}
+
+.aboutme{
+width: 487px;
+height: 62px;
+left: 150px;
+top: 471px;
+
+font-family: DM Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 31px;
+
+color: #EBEBEC;
+}
+
+h2{
+width: 312px;
+height: 94px;
+left: 150px;
+top: 833px;
+
+font-family: DM Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 72px;
+line-height: 94px;
+ color: #EBEBEC;
+}
+
+.portfolio{
+width: 671px;
+height: 93px;
+left: 150px;
+top: 937px;
+
+font-family: DM Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 31px;
+
+color: #EBEBEC;
+}
+
+
+
+
+
+
+
+
+
+
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column (if you want) */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after rows */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: #252734;
+  padding: 10px;
+  /*width: 150px;*/
+}
+
+.content img {
+  border-radius: 25px;
+  width:50%;
+  height:50%;
+}
+
+.content h3{
+  color: #EBEBEC;
+}
+
+.content p{
+  color: #EBEBEC;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+.site-footer {
+  background-color: #252734;
+  text-align: center;
+  margin: 10px 0;
+  padding: 10px 0;
+}
+
+#social-wrapper {
+  text-align: center;
+}
+
+/*Social Media Icons*/
+.social-wrapper {
+  text-align: center;
+}
+
+.social-wrapper ul li {
+  display: inline;
+  margin: 0 5px;
+}
+
+.twitter-icon,
+.facebook-icon,
+.instagram-icon,
+.linkedin-icon,
+.googleplus-icon,
+.youtube-icon,
+.foursquare-icon{
+  margin-top: .625em;
+  width: 40px;
+  height: 40px;
+  opacity: .6;
+  filter: alpha(opacity=60); /* For IE8 and earlier */
+  border-radius: 25px;
+}
+
+.twitter-icon:hover,
+.facebook-icon:hover,
+.instagram-icon:hover,
+.linkedin-icon:hover,
+.googleplus-icon:hover,
+.youtube-icon:hover,
+.foursquare-icon:hover {
+  opacity: 1.0;
+  filter: alpha(opacity=100); /* For IE8 and earlier */
+}
+
+.footer-nav p {
+  text-align: center;
+  font-family: DM Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 26px;
+/* identical to box height */
+
+
+color: #EBEBEC;
+}
