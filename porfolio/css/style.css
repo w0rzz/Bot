@@ -68,7 +68,7 @@ h1{
   font-style: normal;
   font-weight: bold;
   line-height: 80px;
-  font-size:5vw;
+  /*font-size:8vw;*/
   /* or 111% */
 
 
@@ -99,7 +99,7 @@ font-family: DM Sans;
 font-style: normal;
 font-weight: normal;
 line-height: 31px;
-font-size:2vw;
+/*font-size:2vw;*/
 
 color: #EBEBEC;
 }
@@ -128,7 +128,7 @@ font-weight: normal;
 /*font-size: 24px;*/
 line-height: 31px;
 
-font-size:2vw;
+/*font-size:2vw;*/
 
 color: #EBEBEC;
 }
@@ -159,6 +159,7 @@ body{
 /* Inside the box */
 
 .box {
+  border-radius: 25px;
     width: 96%;
     margin:2%;
     padding-bottom: 96%;
@@ -223,6 +224,7 @@ body{
 }
 
 .box img {
+  border-radius: 25px;
     position: absolute;
     left: 50%;
     top: 50%;
